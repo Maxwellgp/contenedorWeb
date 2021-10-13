@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  asir_web:
+    image: httpd 
+    ports:
+      - 9000:80
+    volumes:
+      - ./htdocs:/usr/localapache2
